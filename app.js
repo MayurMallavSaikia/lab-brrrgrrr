@@ -228,3 +228,12 @@ function renderPrice(value)
   
   renderAll();
   }
+
+ function imageLoader(){
+    document.getElementById('patty').style.display="none";
+    document.getElementById('cheese').style.display="none";
+    document.getElementById('tomato').style.display="none";
+    document.getElementById('onion').style.display="none";
+    document.getElementById('lettuce').style.display="none";
+  }
+
